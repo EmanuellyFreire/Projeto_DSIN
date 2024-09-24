@@ -50,7 +50,7 @@ def create_database(connection, query):
         cursor.execute(query)
         print("Database criado com sucesso")
     except Error as err:
-        print(f"Error: '{err}'")
+        print("Database já existe")
 
 create_database_query = "CREATE DATABASE banco"
 
