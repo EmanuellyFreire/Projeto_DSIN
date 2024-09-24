@@ -21,11 +21,11 @@ import pandas as pd
 # if not resultado:
 #     cursor.execute("CREATE DATABASE banco")
 
-db = "banco";
-pw = 'Senha-1234';
+db = "banco"
+pw = 'Senha-1234'
 #------------------------------------------------------------------------
 def create_server_connection(host_name, user_name, user_password):
-    connection = None;
+    connection = None
     try:
         connection = mysql.connector.connect(
             host=host_name,
