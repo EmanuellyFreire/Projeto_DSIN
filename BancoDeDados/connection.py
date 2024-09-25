@@ -2,25 +2,6 @@ import mysql.connector
 from mysql.connector import Error
 import pandas as pd
 
-# conexao = mysql.connector.connect(
-#   host='localhost',
-#   user='root',
-#   password='Senha-1234',
-# )
-
-# cursor = conexao.cursor()
-# cursor.execute("SHOW DATABASES LIKE 'banco'")
-
-# resultado = cursor.fetchone()
-
-# if resultado:
-#     print("O banco de dados já existe.")
-# else:
-#     cursor.execute("CREATE DATABASE banco")
-
-# if not resultado:
-#     cursor.execute("CREATE DATABASE banco")
-
 db = "banco"
 pw = 'Senha-1234'
 #------------------------------------------------------------------------
